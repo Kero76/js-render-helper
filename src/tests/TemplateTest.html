@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Template Unit Test</title>
+</head>
+
+<body>
+    <h1>Template Unit Test</h1>
+    
+    <div id="test1"></div>
+    <hr />
+    <div id="test2"></div>
+    <hr />
+    <div id="test3"></div>
+
+    <!-- Import lib scripts. -->
+    <script src="../../libs/jquery/3.4.1/jquery-3.4.1.min.js"></script>
+    <script src="../../libs/jsrender/1.0.4/jsrender.js"></script>
+
+    <!-- Import js-render-helper scripts. -->
+    <script src="../classes/Template.js"></script>
+    <script src="../classes/render/AbstractRender.js"></script>
+    <script src="../classes/render/RenderLocalTemplate.js"></script>
+    <script src="../classes/render/RenderExternalTemplate.js"></script>
+
+    <!-- Tests scripts. -->
+    <script src="TemplateTest.js"></script>
+
+    <!-- UNIT TEST 2 -->
+    <script id="template-id" type="text/x-jsrender">
+      {{:msg}}
+    </script>
+</body>
+</html>
