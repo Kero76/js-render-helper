@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sample</title>
+</head>
+
+<body>
+    <h1>Template rendering</h1>
+    
+    <div id="local-template-content">
+      <!-- The local template is insert here ... -->
+    </div>
+
+    <div id="external-jsr-template-content">
+      <!-- The external template is insert here ... -->
+    </div>
+
+    <div id="external-html-template-content">
+      <!-- The external template is insert here ... -->
+    </div>
+
+    <!-- Import js-render-helper scripts. -->
+    <script src="../build/1.0/jsrender-helper-1.0.min.js"></script>
+    <script src="index.js"></script>
+
+    <!-- Local template for people watching source -->
+    <script id="local-template-id" type="text/x-jsrender">
+      <section>
+        <h1>{{:title}}</h1>
+
+        <p>{{:description}}</p>
+      </section>
+    </script>
+</body>
+</html>
