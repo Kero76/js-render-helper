@@ -11,10 +11,10 @@ You can get more information directly on the [website](https://www.jsviews.com/)
 
 ### Import script
 
-You just import the javascript file `jsrender-helper.lastest_version.min.js` on your project :
+You just import the javascript file `jsrender-helper-$lastest_version.min.js` on your project :
 
 ```
-<script src="[path_to_lib]/jsrender-helper-1.0.min.js"></script>
+<script src="[path_to_lib]/jsrender-helper-$latest_version.min.js"></script>
 
 ```
 
