@@ -7,7 +7,7 @@
  *  </script>
  * </pre>
  * 
- * @extends BaseRender
+ * @extends AbstractRender
  * 
  * @author Nicolas GILLE <nic.gille@gmail.com>
  * @since 1.0

@@ -2,7 +2,7 @@
  * Sub-class of the BaseRender use to render a external template.
  * An external template is a template store in a specific file outside the html page.
  * 
- * @extends BaseRender
+ * @extends AbstractRender
  * 
  * @author Nicolas GILLE <nic.gille@gmail.com>
  * @since 1.0
