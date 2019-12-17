@@ -1,8 +1,8 @@
 {
-  "name": "js-render-helper",
-  "version": "1.0.0",
+  "name": "@kero76/js-render-helper",
+  "version": "0.0.0",
   "description": "JsRender Helper is a simple librairy that makes it easy to set up and use JsRender on your personnal project.",
-  "main": "build/1.0/jsrender-helper-1.0.min.js",
+  "main": "dist/jsrender-helper-1.0.js",
   "homepage": "https://github.com/Kero76/js-render-helper",
   "author": {
     "name": "Nicolas GILLE",
